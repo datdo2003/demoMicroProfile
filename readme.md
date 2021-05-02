@@ -28,7 +28,12 @@ Also, a simple Hello world endpoint is created, have a look at the class **Hello
 
 More information on MicroProfile can be found [here](https://microprofile.io/)
 
+## How to access REST API
+Rest API path: `http://host:port/<package_name>/<application_path>/...`
 
+Where:
+- `package_name`: artifactId
+- `application_path`: defined in Application class
 
 
 
